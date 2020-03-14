@@ -1,0 +1,614 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,500i,700,700i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+body {
+  width: 70vw;
+  margin: 2% auto;
+}
+body header,
+body footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  width: 70vw;
+  margin: 2% auto;
+}
+body header,
+body footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+.ohmyfood-logo a {
+  text-decoration: none;
+}
+.ohmyfood-logo a h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  .ohmyfood-logo a h1 {
+    font-size: 3rem;
+  }
+}
+
+header {
+  width: 96.8%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  color: #fdcb46;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: #579c87;
+}
+header a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fdcb46;
+  margin: 0;
+}
+@media only screen and (max-width: 425px) {
+  header {
+    padding: 0.5rem;
+  }
+}
+
+body {
+  width: 70vw;
+  margin: 2% auto;
+}
+body header,
+body footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+footer {
+  background-color: #579c87;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+}
+footer a {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #fdcb46;
+  text-decoration: none;
+  animation: shake 0.9s;
+  animation-iteration-count: infinite;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px);
+  }
+  20% {
+    transform: translate(-1px, -1px);
+  }
+  40% {
+    transform: translate(1px, 1px);
+  }
+  60% {
+    transform: translate(-1px, -1px);
+  }
+  80% {
+    transform: translate(1px, 1px);
+  }
+  100% {
+    transform: translate(-1px, -1px);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer a {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  footer {
+    flex-direction: column;
+  }
+}
+
+body {
+  width: 70vw;
+  margin: 2% auto;
+}
+body header,
+body footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+button {
+  width: 245px;
+  border: none;
+  background-color: #579c87;
+  border-radius: 7px;
+  border: none;
+  color: #fdcb46;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+button:after {
+  display: inline-block;
+  animation: points steps(4, end) 3s infinite;
+  width: 5px;
+  content: "";
+}
+button:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+  transition: 700ms;
+  opacity: 0.9;
+}
+@keyframes points {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
+  }
+}
+@media only screen and (max-width: 1024px) {
+  button {
+    width: 220px;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  button {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+body {
+  width: 70vw;
+  margin: 2% auto;
+}
+body header,
+body footer {
+  font-size: 16px;
+  margin: 0;
+}
+
+.menu_section .title-animation {
+  margin: 0.5rem 0;
+}
+.menu_section .title {
+  padding: 1rem;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 50%;
+  transition: background-size 0.5s;
+  position: relative;
+  z-index: 1;
+}
+.menu_section .title h3 {
+  position: relative;
+  display: inline-block;
+  padding: 0 1rem;
+  padding: 0 15px;
+}
+.menu_section .title:hover {
+  background-size: 100% 100% !important;
+}
+.menu_section .title:hover::before {
+  width: 0;
+  transition: 0.2s;
+}
+.menu_section .title:before {
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  transition: 0.2s;
+}
+
+.ohmyfood-logo a {
+  text-decoration: none;
+}
+.ohmyfood-logo a h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+@media only screen and (max-width: 768px) {
+  .ohmyfood-logo a h1 {
+    font-size: 3rem;
+  }
+}
+
+.menu_animation {
+  transition: 0.5s ease-in-out;
+}
+.menu_animation:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  opacity: 0.6;
+}
+
+body {
+  background-color: #ebebeb;
+}
+body .backgrd {
+  background-color: white;
+  padding: 1rem;
+}
+
+.ohmyfood h3 {
+  font-size: 2.5rem;
+  margin: 0.5rem;
+  font-weight: normal;
+}
+.ohmyfood h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: normal;
+}
+.ohmyfood p {
+  font-size: 1rem;
+}
+.ohmyfood a {
+  text-decoration: none;
+}
+.ohmyfood .page {
+  padding: 2rem 5rem;
+  text-align: center;
+}
+.ohmyfood .page h2 {
+  font-size: 3.5rem;
+  padding-bottom: 3rem;
+}
+.ohmyfood .page h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+.ohmyfood .page .menu_section {
+  padding-bottom: 2rem;
+}
+.ohmyfood .page .menu_section ul {
+  width: 100%;
+  padding: 0;
+}
+.ohmyfood .page .menu_section ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.ohmyfood .row {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: initial;
+}
+.ohmyfood .row .menu {
+  width: 25vw;
+  height: 65vh;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  display: inline-block;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.ohmyfood .row .menu i {
+  font-size: 2rem;
+  justify-content: center;
+}
+.ohmyfood .note_enchante {
+  font-family: "Zhi Mang Xing", cursive;
+  background-color: #fcdfdb;
+}
+.ohmyfood .note_enchante a {
+  color: #3d1319;
+}
+.ohmyfood .note_enchante h3 {
+  font-family: "Kalam", cursive;
+}
+.ohmyfood .note_enchante i {
+  background: linear-gradient(to right, #da4b50 50%, #e38913);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ohmyfood .note_enchante .note-enchantee-page h2 {
+  font-family: "Zhi Mang Xing", cursive;
+}
+.ohmyfood .note_enchante .note-enchantee-page h3,
+.ohmyfood .note_enchante .note-enchantee-page p {
+  font-family: "Kalam", cursive;
+}
+.ohmyfood .note_enchante .note-enchantee-page .tete i {
+  font-size: 2.5rem;
+}
+.ohmyfood .note_enchante .note-enchantee-page .title {
+  background: linear-gradient(to top, #da4b50, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .note_enchante .note-enchantee-page .title:before {
+  border-top: 2px solid #da4b50;
+}
+.ohmyfood .note_enchante .note-enchantee-page .title h3 {
+  background: #fcdfdb;
+}
+.ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom h2,
+.ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom i {
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding: 0;
+}
+.ohmyfood .chic_francaise {
+  font-family: "Lobster Two", cursive;
+  background-color: #fff5fe;
+}
+.ohmyfood .chic_francaise a {
+  color: #e38913;
+}
+.ohmyfood .chic_francaise h2 {
+  background: linear-gradient(to right, #e38913 15%, #6e4ccc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section {
+  color: #e38913;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section .title {
+  background: linear-gradient(to top, #e38913, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section .title:before {
+  border-top: 2px solid #e38913;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section .title h3 {
+  background: #fff5fe;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(2) {
+  color: #a56799;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(2) .title {
+  background: linear-gradient(to top, #a56799, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(2) .title:before {
+  border-top: 2px solid #a56799;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(2) .title h3 {
+  background: #fff5fe;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(3) {
+  color: #6e4ccc;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(3) .title {
+  background: linear-gradient(to top, #6e4ccc, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(3) .title:before {
+  border-top: 2px solid #6e4ccc;
+}
+.ohmyfood .chic_francaise .chic_francaise_page .menu_section:nth-child(3) .title h3 {
+  background: #fff5fe;
+}
+.ohmyfood .delice_papille {
+  font-family: "Playball", cursive;
+  background-color: #f5f4f4;
+}
+.ohmyfood .delice_papille h3 {
+  color: #229df9;
+}
+.ohmyfood .delice_papille h2 {
+  background: linear-gradient(to right, #0023db, #229df9 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ohmyfood .delice_papille .delice_papille_page {
+  padding: 2rem 5rem;
+}
+.ohmyfood .delice_papille .delice_papille_page h3 {
+  color: inherit;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:first-child .title,
+.ohmyfood .delice_papille .delice_papille_page .menu_section:last-child .title {
+  background: linear-gradient(to top, #229df9, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:first-child .title:before,
+.ohmyfood .delice_papille .delice_papille_page .menu_section:last-child .title:before {
+  border-top: 2px solid #229df9;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:first-child .title h3,
+.ohmyfood .delice_papille .delice_papille_page .menu_section:last-child .title h3 {
+  background: #f5f4f4;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:nth-child(2) .title {
+  background: linear-gradient(to top, #0023db, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:nth-child(2) .title:before {
+  border-top: 2px solid #0023db;
+}
+.ohmyfood .delice_papille .delice_papille_page .menu_section:nth-child(2) .title h3 {
+  background: #f5f4f4;
+}
+.ohmyfood .palette_gout {
+  font-family: "Courgette", cursive;
+  background-color: #fdfffd;
+}
+.ohmyfood .palette_gout h3 {
+  color: #3e923a;
+}
+.ohmyfood .palette_gout h2 {
+  background: linear-gradient(to right, #3e923a, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ohmyfood .palette_gout .palette_gout_page {
+  padding: 2rem 5rem;
+}
+.ohmyfood .palette_gout .palette_gout_page h3 {
+  color: inherit;
+}
+.ohmyfood .palette_gout .palette_gout_page .title {
+  background: linear-gradient(to top, #3e923a, transparent 15%) no-repeat left bottom/0 100%;
+}
+.ohmyfood .palette_gout .palette_gout_page .title:before {
+  border-top: 2px solid #3e923a;
+}
+.ohmyfood .palette_gout .palette_gout_page .title h3 {
+  background: #fdfffd;
+}
+
+@media only screen and (max-width: 1024px) {
+  .ohmyfood h2 {
+    font-size: 1.6rem;
+  }
+  .ohmyfood .page {
+    padding: 1rem;
+  }
+  .ohmyfood .page .page_specifique h2 {
+    padding: 0;
+  }
+  .ohmyfood .page .page_specifique .row {
+    width: 100%;
+  }
+  .ohmyfood .page .page_specifique .row div:first-child {
+    width: 85%;
+  }
+  .ohmyfood .row {
+    width: 90%;
+  }
+  .ohmyfood .row .menu {
+    width: 30vw;
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  .ohmyfood .row:first-child {
+    padding-top: 1rem;
+  }
+  .ohmyfood .row:nth-child(2) {
+    padding: 0.1rem 1rem 1rem;
+  }
+  .ohmyfood .row .menu {
+    width: 43vw;
+    height: 75vh;
+    margin: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  body {
+    margin: 0;
+  }
+
+  .ohmyfood .row {
+    flex-direction: column;
+  }
+  .ohmyfood .row .menu {
+    width: 85vw;
+    margin: 1rem auto;
+  }
+  .ohmyfood .page h2 {
+    padding: 0;
+    font-size: 2.7rem;
+  }
+  .ohmyfood .page p {
+    margin: 0.5rem auto;
+  }
+  .ohmyfood .page .page_specifique {
+    padding: 2rem 0;
+  }
+  .ohmyfood .page .page_specifique .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .ohmyfood .page .page_specifique .row div:first-child {
+    width: 70%;
+  }
+  .ohmyfood .page .page_specifique .row div:last-child {
+    width: 20%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+  }
+  .ohmyfood .page .page_specifique .row ul li {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .ohmyfood .page h2 {
+    font-size: 2rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

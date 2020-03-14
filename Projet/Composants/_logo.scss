@@ -1,0 +1,18 @@
+@import "../Utils/mixins";
+
+.ohmyfood-logo {
+  a {
+    text-decoration: none;
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    a {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}

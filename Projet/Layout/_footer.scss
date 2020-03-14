@@ -1,0 +1,55 @@
+@import "../Utils/variables";
+@import "../Base/base.scss";
+
+footer {
+  background-color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+
+  a {
+    font-family: $primary-fonts;
+    font-size: 1.5rem;
+    color: $secondary-color;
+    text-decoration: none;
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px);
+      }
+      20% {
+        transform: translate(-1px, -1px);
+      }
+      40% {
+        transform: translate(1px, 1px);
+      }
+      60% {
+        transform: translate(-1px, -1px);
+      }
+      80% {
+        transform: translate(1px, 1px);
+      }
+
+      100% {
+        transform: translate(-1px, -1px);
+      }
+    }
+
+    @media only screen and (max-width: 1024px) {
+      font-size: 1.2rem;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../Utils/variables";
+@import "../Base/base";
+@import "../Composants/_logo";
+
+header {
+  width: 96.8%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  color: $secondary-color;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: $primary-color;
+
+  a {
+    text-decoration: none;
+    font-family: $primary-fonts;
+    font-size: 4rem;
+    font-weight: 600;
+    color: $secondary-color;
+    margin: 0;
+  }
+  @media only screen and (max-width: 425px) {
+    padding: 0.5rem;
+  }
+}

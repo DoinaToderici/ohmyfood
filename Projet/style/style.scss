@@ -1,0 +1,262 @@
+@import "../Base/base.scss";
+@import "../Layout/header";
+@import "../Layout/footer";
+@import "../Composants/_button.scss";
+@import "../Composants/_title-animation";
+@import "../Composants/_logo";
+@import "../Composants/animation_menu";
+@import "../Utils/variables";
+@import "../Utils/mixins";
+
+body {
+  background-color: #ebebeb;
+  .backgrd {
+    background-color: white;
+    padding: 1rem;
+  }
+}
+.ohmyfood {
+  h3 {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .page {
+    padding: 2rem 5rem;
+    text-align: center;
+
+    h2 {
+      font-size: 3.5rem;
+      padding-bottom: 3rem;
+    }
+    h3 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      margin: 0;
+    }
+    .menu_section {
+      padding-bottom: 2rem;
+
+      ul {
+        width: 100%;
+        padding: 0;
+
+        li {
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+
+  .row {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: initial;
+
+    .menu {
+      width: 25vw;
+      height: 65vh;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+        0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+      display: inline-block;
+      margin: 2rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      i {
+        font-size: 2rem;
+        justify-content: center;
+      }
+    }
+  }
+
+  .note_enchante {
+    font-family: $fonts-zhiMangXing;
+    background-color: $palePink-color;
+
+    a {
+      color: $rustic-red;
+    }
+
+    h3 {
+      font-family: $fonts-Kalam;
+    }
+
+    i {
+      @include color_degradee($red 50%, $alloy-orange);
+    }
+
+    .note-enchantee-page {
+      h2 {
+        font-family: $fonts-zhiMangXing;
+      }
+      h3,
+      p {
+        font-family: $fonts-Kalam;
+      }
+
+      .tete {
+        i {
+          font-size: 2.5rem;
+        }
+      }
+
+      .title {
+        @include title_degradee($red);
+        @include title_before($red);
+        h3 {
+          @include title_bg($palePink-color);
+        }
+      }
+      .note-echantee-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2,
+        i {
+          font-size: 2rem;
+          margin: 0 1rem;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .chic_francaise {
+    font-family: $fonts-LobsterTwo;
+    background-color: $pink-color;
+
+    a {
+      color: $alloy-orange;
+    }
+
+    h2 {
+      @include color_degradee($alloy-orange 15%, $violet);
+    }
+
+    .chic_francaise_page {
+      .menu_section {
+        color: $alloy-orange;
+
+        .title {
+          @include title_degradee($alloy-orange);
+          @include title_before($alloy-orange);
+          h3 {
+            @include title_bg($pink-color);
+          }
+        }
+
+        &:nth-child(2) {
+          color: $violet-blue;
+          .title {
+            @include title_degradee($violet-blue);
+            @include title_before($violet-blue);
+            h3 {
+              @include title_bg($pink-color);
+            }
+          }
+        }
+        &:nth-child(3) {
+          color: $violet;
+          .title {
+            @include title_degradee($violet);
+            @include title_before($violet);
+            h3 {
+              @include title_bg($pink-color);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .delice_papille {
+    font-family: $fonts-Playball;
+    background-color: $snow-color;
+
+    h3 {
+      color: $light-blue;
+    }
+
+    h2 {
+      @include color_degradee($blue, $light-blue 80%);
+    }
+    .delice_papille_page {
+      padding: 2rem 5rem;
+
+      h3 {
+        color: inherit;
+      }
+
+      .menu_section:first-child,
+      .menu_section:last-child {
+        .title {
+          @include title_degradee($light-blue);
+          @include title_before($light-blue);
+          h3 {
+            @include title_bg($snow-color);
+          }
+        }
+      }
+      .menu_section:nth-child(2) {
+        .title {
+          @include title_degradee($blue);
+          @include title_before($blue);
+          h3 {
+            @include title_bg($snow-color);
+          }
+        }
+      }
+    }
+  }
+
+  .palette_gout {
+    font-family: $fonts-Courgette;
+    background-color: $white-color;
+
+    h3 {
+      color: $green;
+    }
+
+    h2 {
+      @include color_degradee($green, $light-green);
+    }
+
+    .palette_gout_page {
+      padding: 2rem 5rem;
+      h3 {
+        color: inherit;
+      }
+      .title {
+        @include title_degradee($green);
+        @include title_before($green);
+        h3 {
+          @include title_bg($white-color);
+        }
+      }
+    }
+  }
+}
+
+@import "../Utils/_media_queries";

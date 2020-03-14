@@ -1,0 +1,48 @@
+@import "../Utils/variables";
+@import "../Base/base.scss";
+@import "../Utils/mixins";
+
+.menu_section {
+  .title-animation {
+    margin: 0.5rem 0;
+  }
+
+  .title {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 50%;
+    transition: background-size 0.5s;
+    position: relative;
+    z-index: 1;
+
+    h3 {
+      position: relative;
+      display: inline-block;
+      padding: 0 1rem;
+      padding: 0 15px;
+    }
+
+    &:hover {
+      background-size: 100% 100% !important;
+
+      &::before {
+        width: 0;
+        transition: 0.2s;
+      }
+    }
+
+    &:before {
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: -1;
+      transition: 0.2s;
+    }
+  }
+}
