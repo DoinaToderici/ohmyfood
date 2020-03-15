@@ -25,23 +25,22 @@ footer {
 
     @keyframes shake {
       0% {
-        transform: translate(1px, 1px);
+        transform: translate(0px, 0px);
       }
       20% {
-        transform: translate(-1px, -1px);
+        transform: translate(1px, 1px);
       }
       40% {
-        transform: translate(1px, 1px);
+        transform: translate(-1px, 1px);
       }
       60% {
-        transform: translate(-1px, -1px);
-      }
-      80% {
         transform: translate(1px, 1px);
       }
-
+      80% {
+        transform: translate(-1px, 1px);
+      }
       100% {
-        transform: translate(-1px, -1px);
+        transform: translate(0px, 0px);
       }
     }
 
@@ -49,6 +48,7 @@ footer {
       font-size: 1.2rem;
     }
   }
+
   @media only screen and (max-width: 425px) {
     flex-direction: column;
   }

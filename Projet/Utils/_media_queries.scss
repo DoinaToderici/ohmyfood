@@ -5,12 +5,13 @@
     }
     .page {
       padding: 1rem;
+
       .page_specifique {
         h2 {
           padding: 0;
         }
+
         .row {
-          width: 100%;
           div:first-child {
             width: 85%;
           }
@@ -18,7 +19,8 @@
       }
     }
     .row {
-      width: 90%;
+      width: 100%;
+      margin: 0;
 
       .menu {
         width: 30vw;
@@ -32,13 +34,11 @@
   body {
     width: 100%;
   }
+
   .ohmyfood {
     .row {
       &:first-child {
         padding-top: 1rem;
-      }
-      &:nth-child(2) {
-        padding: 0.1rem 1rem 1rem;
       }
 
       .menu {
@@ -54,9 +54,11 @@
   body {
     margin: 0;
   }
+
   .ohmyfood {
     .row {
       flex-direction: column;
+
       .menu {
         width: 85vw;
         margin: 1rem auto;
@@ -67,9 +69,11 @@
         padding: 0;
         font-size: 2.7rem;
       }
+
       p {
         margin: 0.5rem auto;
       }
+
       .page_specifique {
         padding: 2rem 0;
 
@@ -80,12 +84,14 @@
           div:first-child {
             width: 70%;
           }
+
           div:last-child {
             width: 20%;
             text-align: right;
             display: flex;
             flex-direction: column;
           }
+
           ul {
             li {
               flex-direction: column;

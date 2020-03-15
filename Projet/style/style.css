@@ -123,22 +123,22 @@ footer a:hover {
 }
 @keyframes shake {
   0% {
-    transform: translate(1px, 1px);
+    transform: translate(0px, 0px);
   }
   20% {
-    transform: translate(-1px, -1px);
+    transform: translate(1px, 1px);
   }
   40% {
-    transform: translate(1px, 1px);
+    transform: translate(-1px, 1px);
   }
   60% {
-    transform: translate(-1px, -1px);
-  }
-  80% {
     transform: translate(1px, 1px);
   }
+  80% {
+    transform: translate(-1px, 1px);
+  }
   100% {
-    transform: translate(-1px, -1px);
+    transform: translate(0px, 0px);
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -534,14 +534,12 @@ body .backgrd {
   .ohmyfood .page .page_specifique h2 {
     padding: 0;
   }
-  .ohmyfood .page .page_specifique .row {
-    width: 100%;
-  }
   .ohmyfood .page .page_specifique .row div:first-child {
     width: 85%;
   }
   .ohmyfood .row {
-    width: 90%;
+    width: 100%;
+    margin: 0;
   }
   .ohmyfood .row .menu {
     width: 30vw;
@@ -555,9 +553,6 @@ body .backgrd {
 
   .ohmyfood .row:first-child {
     padding-top: 1rem;
-  }
-  .ohmyfood .row:nth-child(2) {
-    padding: 0.1rem 1rem 1rem;
   }
   .ohmyfood .row .menu {
     width: 43vw;

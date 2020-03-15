@@ -10,6 +10,7 @@
 
 body {
   background-color: #ebebeb;
+
   .backgrd {
     background-color: white;
     padding: 1rem;
@@ -30,6 +31,7 @@ body {
   p {
     font-size: 1rem;
   }
+
   a {
     text-decoration: none;
   }
@@ -42,6 +44,7 @@ body {
       font-size: 3.5rem;
       padding-bottom: 3rem;
     }
+
     h3 {
       font-size: 1.5rem;
       font-weight: normal;
@@ -110,6 +113,7 @@ body {
       h2 {
         font-family: $fonts-zhiMangXing;
       }
+
       h3,
       p {
         font-family: $fonts-Kalam;
@@ -124,10 +128,12 @@ body {
       .title {
         @include title_degradee($red);
         @include title_before($red);
+
         h3 {
           @include title_bg($palePink-color);
         }
       }
+
       .note-echantee-bottom {
         display: flex;
         justify-content: center;
@@ -162,6 +168,7 @@ body {
         .title {
           @include title_degradee($alloy-orange);
           @include title_before($alloy-orange);
+
           h3 {
             @include title_bg($pink-color);
           }
@@ -169,19 +176,24 @@ body {
 
         &:nth-child(2) {
           color: $violet-blue;
+
           .title {
             @include title_degradee($violet-blue);
             @include title_before($violet-blue);
+
             h3 {
               @include title_bg($pink-color);
             }
           }
         }
+
         &:nth-child(3) {
           color: $violet;
+
           .title {
             @include title_degradee($violet);
             @include title_before($violet);
+
             h3 {
               @include title_bg($pink-color);
             }
@@ -202,6 +214,7 @@ body {
     h2 {
       @include color_degradee($blue, $light-blue 80%);
     }
+
     .delice_papille_page {
       padding: 2rem 5rem;
 
@@ -214,6 +227,7 @@ body {
         .title {
           @include title_degradee($light-blue);
           @include title_before($light-blue);
+
           h3 {
             @include title_bg($snow-color);
           }
@@ -223,6 +237,7 @@ body {
         .title {
           @include title_degradee($blue);
           @include title_before($blue);
+
           h3 {
             @include title_bg($snow-color);
           }
@@ -245,12 +260,15 @@ body {
 
     .palette_gout_page {
       padding: 2rem 5rem;
+
       h3 {
         color: inherit;
       }
+
       .title {
         @include title_degradee($green);
         @include title_before($green);
+        
         h3 {
           @include title_bg($white-color);
         }
