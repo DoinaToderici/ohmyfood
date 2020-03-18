@@ -57,17 +57,21 @@ body footer {
   text-decoration: none;
 }
 .ohmyfood-logo a h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 2560px) {
   .ohmyfood-logo a h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .ohmyfood-logo a h1 {
+    font-size: 2.5rem;
   }
 }
 
 header {
-  width: 96.8%;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -84,7 +88,7 @@ header a {
   color: #fdcb46;
   margin: 0;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 1024px) {
   header {
     padding: 0.5rem;
   }
@@ -141,6 +145,11 @@ footer a:hover {
     transform: translate(0px, 0px);
   }
 }
+@media only screen and (min-width: 2560px) {
+  footer a {
+    font-size: 2rem;
+  }
+}
 @media only screen and (max-width: 1024px) {
   footer a {
     font-size: 1.2rem;
@@ -163,7 +172,6 @@ body footer {
 }
 
 button {
-  width: 245px;
   border: none;
   background-color: #579c87;
   border-radius: 7px;
@@ -204,6 +212,11 @@ button:hover {
   }
   100% {
     content: "";
+  }
+}
+@media only screen and (min-width: 2560px) {
+  button {
+    font-size: 2rem;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -273,12 +286,17 @@ body footer {
   text-decoration: none;
 }
 .ohmyfood-logo a h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 2560px) {
   .ohmyfood-logo a h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .ohmyfood-logo a h1 {
+    font-size: 2.5rem;
   }
 }
 
@@ -321,7 +339,7 @@ body .backgrd {
   text-align: center;
 }
 .ohmyfood .page h2 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding-bottom: 3rem;
 }
 .ohmyfood .page h3 {
@@ -408,6 +426,12 @@ body .backgrd {
   font-size: 2rem;
   margin: 0 1rem;
   padding: 0;
+}
+@media only screen and (max-width: 320px) {
+  .ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom h2,
+.ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom i {
+    font-size: 1.7rem;
+  }
 }
 .ohmyfood .chic_francaise {
   font-family: "Lobster Two", cursive;
@@ -524,6 +548,32 @@ body .backgrd {
   background: #fdfffd;
 }
 
+@media only screen and (min-width: 2560px) {
+  .ohmyfood h1 {
+    font-size: 5rem;
+  }
+  .ohmyfood h2 {
+    font-size: 2.5rem;
+  }
+  .ohmyfood h3 {
+    font-size: 3.5rem;
+  }
+  .ohmyfood .row {
+    width: 80%;
+  }
+  .ohmyfood .page h3 {
+    font-size: 2.5rem;
+  }
+  .ohmyfood .page p {
+    font-size: 1.5rem;
+  }
+  .ohmyfood .page .row {
+    width: 70%;
+  }
+  .ohmyfood .note_enchante .note-enchantee-page .note-echantee-bottom h2 {
+    font-size: 2.5rem;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .ohmyfood h2 {
     font-size: 1.6rem;
@@ -574,7 +624,7 @@ body .backgrd {
   }
   .ohmyfood .page h2 {
     padding: 0;
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
   .ohmyfood .page p {
     margin: 0.5rem auto;

@@ -1,4 +1,5 @@
 @import "../Utils/variables";
+@import "../Utils/mixins";
 @import "../Base/base.scss";
 
 footer {
@@ -44,12 +45,16 @@ footer {
       }
     }
 
-    @media only screen and (max-width: 1024px) {
+    @include large-scale {
+      font-size: 2rem;
+    }
+
+    @include medium-scale {
       font-size: 1.2rem;
     }
   }
 
-  @media only screen and (max-width: 425px) {
+  @include mobile {
     flex-direction: column;
   }
 }

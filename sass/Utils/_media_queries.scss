@@ -1,4 +1,46 @@
-@media only screen and (max-width: 1024px) {
+@import "./mixins";
+
+@include large-scale {
+  .ohmyfood {
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 3.5rem;
+    }
+    .row {
+      width: 80%;
+    }
+
+    .page {
+      h3 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+      }
+      .row {
+        width: 70%;
+      }
+    }
+
+    .note_enchante {
+      .note-enchantee-page {
+        .note-echantee-bottom h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+}
+
+@include medium-scale {
   .ohmyfood {
     h2 {
       font-size: 1.6rem;
@@ -30,7 +72,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@include tablet {
   body {
     width: 100%;
   }
@@ -50,7 +92,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@include mobile {
   body {
     margin: 0;
   }
@@ -67,7 +109,7 @@
     .page {
       h2 {
         padding: 0;
-        font-size: 2.7rem;
+        font-size: 2rem;
       }
 
       p {
@@ -103,7 +145,8 @@
     }
   }
 }
-@media only screen and (max-width: 320px) {
+
+@include small-mobile {
   .ohmyfood {
     .page {
       h2 {

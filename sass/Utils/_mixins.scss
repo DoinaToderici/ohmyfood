@@ -1,0 +1,51 @@
+@mixin color_degradee($color1, $color2) {
+  background: linear-gradient(to right, $color1, $color2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin title_degradee($color) {
+  background: linear-gradient(to top, $color, transparent 15%) no-repeat left
+    bottom / 0 100%;
+}
+
+@mixin title_bg($bg-color) {
+  background: $bg-color;
+}
+
+@mixin title_before($color) {
+  &:before {
+    border-top: 2px solid $color;
+  }
+}
+
+@mixin large-scale {
+  @media only screen and (min-width: 2560px) {
+    @content;
+  }
+}
+@mixin normal-scale {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
+@mixin medium-scale {
+  @media only screen and (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media only screen and (max-width: 425px) {
+    @content;
+  }
+}
+@mixin small-mobile {
+  @media only screen and (max-width: 320px) {
+    @content;
+  }
+}

@@ -1,8 +1,8 @@
 @import "../Utils/variables";
 @import "../Base/base.scss";
+@import "../Utils/mixins";
 
 button {
-  width: 245px;
   border: none;
   background-color: $primary-color;
   border-radius: 7px;
@@ -23,11 +23,13 @@ button {
     width: 5px;
     content: "";
   }
+
   &:hover {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
     transition: 700ms;
     opacity: 0.9;
   }
+
   @keyframes points {
     0% {
       content: "";
@@ -46,14 +48,18 @@ button {
     }
   }
 
-  @media only screen and (max-width: 1024px) {
+  @include large-scale {
+    font-size: 2rem;
+  }
+
+  @include medium-scale {
     width: 220px;
     font-size: 1.5rem;
     padding: 0.5rem;
     margin-top: 1rem;
   }
 
-  @media only screen and (max-width: 768px) {
+  @include tablet {
     margin-top: 1rem;
     font-size: 1.3rem;
   }

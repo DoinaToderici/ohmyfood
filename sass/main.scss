@@ -1,12 +1,12 @@
-@import "../Base/base.scss";
-@import "../Layout/header";
-@import "../Layout/footer";
-@import "../Composants/_button.scss";
-@import "../Composants/_title-animation";
-@import "../Composants/_logo";
-@import "../Composants/animation_menu";
-@import "../Utils/variables";
-@import "../Utils/mixins";
+@import "Base/_base.scss";
+@import "Layout/header";
+@import "Layout/footer";
+@import "Composants/_button.scss";
+@import "Composants/_title-animation";
+@import "Composants/_logo";
+@import "Composants/_animation_menu";
+@import "Utils/variables";
+@import "Utils/mixins";
 
 body {
   background-color: #ebebeb;
@@ -16,6 +16,7 @@ body {
     padding: 1rem;
   }
 }
+
 .ohmyfood {
   h3 {
     font-size: 2.5rem;
@@ -41,7 +42,7 @@ body {
     text-align: center;
 
     h2 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       padding-bottom: 3rem;
     }
 
@@ -144,6 +145,10 @@ body {
           font-size: 2rem;
           margin: 0 1rem;
           padding: 0;
+
+          @include small-mobile {
+            font-size: 1.7rem;
+          }
         }
       }
     }
@@ -268,7 +273,7 @@ body {
       .title {
         @include title_degradee($green);
         @include title_before($green);
-        
+
         h3 {
           @include title_bg($white-color);
         }
@@ -277,4 +282,4 @@ body {
   }
 }
 
-@import "../Utils/_media_queries";
+@import "Utils/_media_queries";
